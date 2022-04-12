@@ -1,0 +1,17 @@
+@media (max-width: 991px) {
+    .consultation {
+        min-height: 550px;
+        padding: 50px 0 60px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .consultation {
+        min-height: 480px;
+        padding: 20px 0 10px 0;
+        &__descr {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+}
