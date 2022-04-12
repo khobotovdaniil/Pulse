@@ -2,9 +2,6 @@
     .advantages {
         min-height: 500px;
         padding: 50px 0 45px 0;
-        &__header {
-            font-size: 25px;
-        }
         &__item {
             width: 230px;
         }
@@ -42,10 +39,6 @@
 @media (max-width: 575px) {
     .advantages {
         padding: 20px 0 10px 0;
-        &__header {
-            font-size: 18px;
-            margin-bottom: 0;
-        }
         &__item {
             flex-direction: column;
             width: 250px;
