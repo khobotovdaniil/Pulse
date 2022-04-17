@@ -1,0 +1,71 @@
+@media (max-width: 991px) {
+    .carousel {
+        padding: 50px 0 60px 0;
+        &__inner {
+            width: 90%;
+        }
+        img {
+            margin: 0 auto;
+            width: 90%;
+        }
+        .slick-next {
+            right: -33px;
+        }
+        .slick-prev {
+            left: -33px;
+
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel {
+        position: relative;
+        .slick-dots {
+            top: 3px;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            list-style: none;
+            li {
+                width: 40px;
+                height: 20px;
+                display: block;
+                &:before {
+                    display: block;
+                    width: 8px;
+                    height: 8px;
+                    margin: 0 auto;
+                    border-radius: 100%;
+                    background-color: grey;
+                    content: '';
+                }  
+                button {
+                    display: none;
+                }
+            }
+            .slick-active {
+                &:before {
+                    background-color: red;
+                }
+            }
+        }          
+    }
+}
+
+@media (max-width: 575px) {
+    .carousel {
+        .slick-dots {
+            li {
+                width: 30px;
+                &:before {
+                    width: 5px;
+                    height: 5px;
+                }
+            }
+        }
+    }
+}
