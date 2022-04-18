@@ -1,0 +1,39 @@
+@media (max-width:767px) {
+    .reviews {
+        &__wrapper {
+            padding: 0 0;
+        }
+        &__item {
+            margin-top: 40px;
+        }
+        &__img {
+            margin-right: 30px;
+        }
+    }
+}
+
+@media (max-width:575px) {
+    .reviews {
+        &__item {
+            flex-direction: column;
+        }
+        &__img {
+            display: block;
+            margin-right: 0;
+            margin: 0 auto;
+        }
+        &__title {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 16px;
+        }
+        &__subtitle {
+            text-align: center;
+            font-size: 12px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+}
