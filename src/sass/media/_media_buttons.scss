@@ -8,6 +8,9 @@
 
 @media (max-width: 767px) {
     .button {
+        &:hover {
+            box-shadow: none;
+        }
         &_main {
             margin-top: 35px;
 

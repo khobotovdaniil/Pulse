@@ -44,6 +44,10 @@
             height: 45px;
             font-size: 14px;
             line-height: 43px;
+            &:hover {
+                box-shadow: none;
+                border: 2px solid #d0d0d0;
+            }           
         }
     }
 
