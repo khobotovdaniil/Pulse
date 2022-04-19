@@ -8,6 +8,7 @@
 
 @media (max-width: 575px) {
     .modal {
+        padding:15px 40px 15px 40px;
         &__subtitle {
             font-size: 14px;
         }
@@ -17,6 +18,9 @@
         &__close {
             top: 10px;
             right: 10px;
+        }
+        label.error {
+            font-size: 11px;
         }
     }
 }
