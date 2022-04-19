@@ -1,0 +1,22 @@
+@media (max-width: 991px) {
+    .modal {
+        &__subtitle {
+            font-size: 17px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .modal {
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        &__close {
+            top: 10px;
+            right: 10px;
+        }
+    }
+}
