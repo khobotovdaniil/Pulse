@@ -1,0 +1,18 @@
+@media (max-width: 1199px) {
+    .mechclock {
+        right: 5%;
+    }
+}
+
+@media (max-width: 991px) {
+    .mechclock {
+        top: 130px;
+        right: 3%;
+    }
+}
+
+@media (max-width: 767px) {
+    .mechclock {
+        display: none;
+    }
+}

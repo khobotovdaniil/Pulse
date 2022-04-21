@@ -9,3 +9,21 @@
         transform: scale(1);
     }
 }
+
+@keyframes clockgears {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes clockhands {
+    from {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(315deg);
+    }
+}

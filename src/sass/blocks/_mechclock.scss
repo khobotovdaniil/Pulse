@@ -1,0 +1,88 @@
+.mechclock {
+    position: absolute;
+    top: 180px;
+    right: 15%;
+    width: 395px;
+    height: 395px;
+    &__cover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: white;
+        border-radius: 100%;
+        z-index: -3;
+        opacity: 0.1;
+    }
+    &__bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url('../clock/clock-bg.png') center (center/cover) no-repeat;
+        z-index: -1;
+    }
+    &__center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        height: 50px;
+        background: url('../clock/clockcenter.png') center (center/cover) no-repeat;
+    }
+    &__gear-small {
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        left: 161px;
+        top: 65px;
+        background: url('../clock/gear_small.png') center (center/cover) no-repeat;
+        transform-origin: center;
+        z-index: -2;
+        animation: clockgears 60s steps(60) infinite;
+    }
+    &__gear-big {
+        position: absolute;
+        width: 125px;
+        height: 125px;
+        top: 95px;
+        left: 199px;
+        background: url('../clock/gear_big.png') center (center/cover) no-repeat;
+        transform-origin: center;
+        z-index: -2;
+        animation: clockgears 60s steps(60) infinite;
+    }
+    &__gear-medium {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 224px;
+        left: 96px;
+        background: url('../clock/gear.png') center (center/cover) no-repeat;
+        transform-origin: center;
+        z-index: -2;
+        animation: clockgears 60s steps(60) infinite;
+    }  
+    &__hour {
+        position: absolute;
+        width:115px;
+        height: 112px;
+        top: 50%;
+        left: 50%;
+        background: url('../clock/hourhand.png') center (center/cover) no-repeat;
+        transform-origin: left top;
+        animation: clockhands 120s linear infinite;
+        
+    }
+    &__minute {
+        position: absolute;
+        width: 115px;
+        height: 150px;
+        top: 50px;
+        left: 50%;
+        background: url('../clock/minhand.png') center (center/cover) no-repeat;
+        transform-origin: left bottom;
+        animation: clockhands 10s linear infinite;
+    }
+
+}
