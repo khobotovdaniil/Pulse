@@ -17,8 +17,8 @@
         }
         &__addr {
             font-size: 16px;
-            line-height: 16px;
-            margin-bottom: 15px;
+            line-height: 19px;
+            margin-bottom: 10px;
         }
         &__phone {
             font-size: 16px;
@@ -34,9 +34,9 @@
                 &:hover {
                     box-shadow: none;
                 }
-                img {
-                    height: 20px;
-                }
+            }
+            &-icon {
+                font-size: 20px;
             }
         }
     }
